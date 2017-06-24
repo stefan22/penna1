@@ -1,4 +1,4 @@
-# penhaligon  :rocket:
+# penna1  :rocket:
 
 ### background  :bell:
 Customers feedback survey showed that users were finding it difficult to find the basket when adding an item to their basket
@@ -36,4 +36,4 @@ kbd>desktop</kbd> :rocket:
 ![](/images/finaldraft.png) 
 
 
-# penna1
+
