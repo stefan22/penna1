@@ -1,4 +1,4 @@
-# penna1  :rocket:
+# penhaligons  :rocket:
 
 ### background  :bell:
 Customers feedback survey showed that users were finding it difficult to find the basket when adding an item to their basket
