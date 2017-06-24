@@ -32,7 +32,8 @@ GA Universal Slot 3
 
 
 
-kbd>desktop</kbd> :rocket:        
+<kbd>desktop</kbd>  :rocket:     
+
 ![](/images/finaldraft.png) 
 
 
