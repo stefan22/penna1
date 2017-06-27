@@ -116,9 +116,6 @@
                     clearTimeout(thinkAboutTimeOut);
                 }
             }
-            
-
-           //[div.ajx-basket-items.nogaps]
          
 
            function setDisplay() {
@@ -172,25 +169,15 @@
                         tclass[i].className += " larger";
                     }//if
                 }//for loop class
-                var id = 'basketSummaryMenu';
                
                 basket.style.opacity = 1;
                 mess.style.opacity = 1; 
                 basket.style.display = 'block';
                 mess.style.display = 'block';
-                //document.querySelector('.ajx-basket-container').style.opacity = 1; 
+                forgetAboutHidingTable('itemAddedbasketSummaryMenu');
                
-
-                
             }//lightsOn
 
-
-        
-
-
-          
-           
-        
         }//simulation
       
       
