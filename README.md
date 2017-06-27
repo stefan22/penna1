@@ -25,7 +25,7 @@ desktop only/ chrome 45+, firefox 45+, e10, safari
 
 
 ### remains to be done
-metrics 
+metrics - completed
 GA Universal Slot 3 
 
 <br/>
