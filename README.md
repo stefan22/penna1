@@ -21,7 +21,7 @@ desktop only/ chrome 45+, firefox 45+, e10, safari
   a few extra tweaks to get the timing right (along with style display block to push it)
 - font size larger => class added using a for loop (no font size provided either):changed to 1.5ems
 - experiment working ok
-- Updated functionality for items listing page. Now when clicking CTA on top re-arranging shopping cart items on the fly, it also scrolls up to the top of page.
+- Updated functionality for items listing page. Now when clicking CTA on top of re-arranging shopping cart items in the fly, it also scrolls up to the top of page.
 
 
 ### remains to be done
