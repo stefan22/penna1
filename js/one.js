@@ -4,10 +4,7 @@
     SL.andRedEyelikePenhaligons1 = {
         init: function() { 
             this.pgCssDesktop();
-            this.simulation();
-
-           
-               
+            this.simulation();     
         },
         //init
 
@@ -34,31 +31,61 @@
             var basket = document.getElementById('basketSummaryMenu');
             //message
             var mess = document.getElementById('itemAddedbasketSummaryMenu');
+
+            if(document.querySelector('.addtoBasket')) {
+                document.querySelector('.addtoBasket').addEventListener('click', function(e) {
+                    console.log(e);
+                    showBasketSummary('basketSummaryMenu',-350,30);
+                    var droppedbasked = document.querySelector('.ajx-basket-container');
+                    basket.style.display = 'block';
+                    mess.style.display = 'block';
+                    basket.style.opacity = 0;
+                    mess.style.opacity = 0;
+                  
+                    //if basket shown
+                    if(basket) {
+                        console.log('display set to block');
+                        setTimeout(setDisplay,1500);   
+                    }//if basket showing
+
+                },false);
+
+            }//if this page
             
 
+            if(document.querySelector('.listingadd')) {
+                    document.querySelector('.main-list').addEventListener('click',function(e) {
+                        console.log(this.e);
+                        console.log(e);
+                        showBasketSummary('basketSummaryMenu',-350,30);
+                        var droppedbasked = document.querySelector('.ajx-basket-container');
+                        basket.style.display = 'block';
+                        mess.style.display = 'block';
+                        basket.style.opacity = 0;
+                        mess.style.opacity = 0;
+                      
+                        //if basket shown
+                        if(basket) {
+                            console.log('display set to block');
+                            setTimeout(setDisplay,1500);   
+                        }//if basket showing
 
-            document.querySelector('.addtoBasket').addEventListener('click', function(e) {
-                console.log(e);
-                showBasketSummary('basketSummaryMenu',-350,30);
-                var droppedbasked = document.querySelector('.ajx-basket-container');
-                basket.style.display = 'block';
-                mess.style.display = 'block';
-                basket.style.opacity = 0;
-                mess.style.opacity = 0;
-              
-                //if basket shown
-                if(basket) {
-                    console.log('display set to block');
-                    setTimeout(setDisplay,1500);   
-                }//if basket showing
+                },false);
+                
+            }//if that page
 
-            },false);
+            function forgetAboutHidingTable(tableToHide){
+                if (typeof thinkAboutTimeOut != 'undefined') {
+                    clearTimeout(thinkAboutTimeOut)
+                }
+            }
+            
 
             //deals w/site-evt
            $('#basketSummaryMenu').mouseleave(function() {
                 forgetAboutHidingTable("basketSummaryMenu");
            });
-           //onmouseleave jquery evt
+          
 
            function setDisplay() {
                 var oneAmt,two,three,four,cloned, inserto;
@@ -102,7 +129,9 @@
                 var mess = document.getElementById('itemAddedbasketSummaryMenu');
                 mess.style.display = 'block';
                 basket.style.opacity = 1;
-                mess.style.opacity = 1;  
+                mess.style.opacity = 1; 
+                basket.style.display = 'block';
+                document.querySelector('.ajx-basket-container').style.opacity = 1; 
 
                 //sets larger class
                 var tclass = document.querySelectorAll('.desc .mtb0-3.f-bold');
@@ -114,8 +143,18 @@
             }//lightsOn
 
 
-           
-           
+          
+           document.getElementById('basketSummaryMenu').
+           addEventListener('click', function(e) {
+                console.log(e);
+                if(document.querySelector('.absoltue.close.right.pointer.p0-5.f-18')) {
+                    document.querySelector('.ajx-basket-container').style.opacity = 0;
+                    document.getElementById('basketSummaryMenu').style.opacity = 0;
+                    var mess = document.getElementById('itemAddedbasketSummaryMenu');
+                    mess.style.opacity = 0;
+                }
+
+           },false);
 
         
         }//simulation
@@ -124,17 +163,17 @@
     };
     //SL.andRedEyelikePenhaligons1
    (function pfjQ() {
-        if (document.getElementById('main') !== null) {
-            try {
+       // if (document.getElementById('main') !== null) {
+            //try {
                 SL.andRedEyelikePenhaligons1.init();
-            } 
-            catch (err) {
-                  console.log('TRY ERROR: '+ err);
-            }
-        }//if 
-        else { 
-            setTimeout(pfjQ, 25); 
-        }//else
+            //} 
+           // catch (err) {
+                 // console.log('TRY ERROR: '+ err);
+            //}
+       //}//if 
+       // else { 
+           // setTimeout(pfjQ, 25); 
+        //}//else
            
     })();//pfjQ
 
