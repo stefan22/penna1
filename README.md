@@ -1,4 +1,4 @@
-# penna1  :rocket:
+# penhaligons  :rocket:
 
 ### background  :bell:
 Customers feedback survey showed that users were finding it difficult to find the basket when adding an item to their basket
@@ -27,12 +27,13 @@ desktop only/ chrome 45+, firefox 45+, e10, safari
 metrics 
 GA Universal Slot 3 
 
+<br/>
 
 
 
 
+<kbd>desktop</kbd>  :rocket:     
 
-kbd>desktop</kbd> :rocket:        
 ![](/images/finaldraft.png) 
 
 
