@@ -61,30 +61,7 @@
                     $('#itemAddedbasketSummaryMenu').hide();
                 }//if   
             });
-
-           //basco in out
-
-           function basco() {
-             console.log('basco');
-             var bassum = document.getElementById('basketSummaryMenu');
-             bassum.style.opacity = 0;
-             setDisplay();
-
-           }
-
-              document.querySelector('a#basketSummaryText.fc-brand').
-              addEventListener('mouseenter',basco,false);
-
-              $('a#basketSummaryText.fc-brand').mouseleave(function() {
-                 thinkAboutHidingTablebasket('basketSummaryMenu');
-              });
-
-
-            
-            $('a#basketSummaryText.fc-brand').mouseleave(function() {
-                 thinkAboutHidingTablebasket('basketSummaryMenu');
-            });    
-
+ 
 
             }//if this page
             
@@ -126,27 +103,32 @@
                
               });//basketSummary click
 
-              //basco in out
+             
+                
+            }//if that page
 
-              function basco() {
-                console.log('basco');
-                 var bassum = document.getElementById('basketSummaryMenu');
-                 bassum.style.opacity = 0;
-                 setDisplay();
+            //basco in out
 
-              }
+           function basco() {
+             console.log('basco');
+             var bassum = document.getElementById('basketSummaryMenu');
+             bassum.style.opacity = 0;
+             setDisplay();
+
+           }
 
               document.querySelector('a#basketSummaryText.fc-brand').
               addEventListener('mouseenter',basco,false);
+
               $('a#basketSummaryText.fc-brand').mouseleave(function() {
                  thinkAboutHidingTablebasket('basketSummaryMenu');
               });
-              
 
 
-
-                
-            }//if that page
+            
+            $('a#basketSummaryText.fc-brand').mouseleave(function() {
+                 thinkAboutHidingTablebasket('basketSummaryMenu');
+            });    
 
             function forgetAboutHidingTable(tableToHide){
                 if (typeof thinkAboutTimeOut != 'undefined') {
