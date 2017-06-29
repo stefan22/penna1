@@ -23,6 +23,18 @@ desktop only/ chrome 45+, firefox 45+, e10, safari
 - experiment working ok
 - Updated functionality for items listing page. Now when clicking CTA on top of re-arranging shopping cart items in the fly, it also scrolls up to the top of page.
 
+--more fixes:
+- mouse in and out shopping bag image to view basket summary
+- cookie banner changes and basket summary position
+- add to cta button positions basket summary under shopping bag image whatever browser screen width
+  (it does not suppose to resize on the fly)
+- list items collected with promises
+- /page/basket => comes up when you click on 'proceed to checkout' (previous page)
+  If you decide not to go with that, (because 'interferes' with site overlay), then remove line [51-54] and basket summary will only show on mouse over in this page.
+- 'super user friendly' => mouse out basket to hide basket summary  
+- line 28 => adds conditional statment for engrave me cta (so that popup wont appear under site's popup)	
+
+
 
 ### remains to be done
 metrics - completed
