@@ -7,7 +7,7 @@ Customers feedback survey showed that users were finding it difficult to find th
 By adding an animation feature to the mini-basket when a  user adds an item to their basket will help users know where to click to view their basket; which will lead to users clicking to the checkout funnel and ultimately increase conversion. 
 
 ### targeting
-www.penhaligons.com
+see testPlan
 desktop only/ chrome 45+, firefox 45+, e10, safari
 
 
