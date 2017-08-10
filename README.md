@@ -41,11 +41,11 @@ desktop only/ chrome 45+, firefox 45+, e10, safari
 
 
 
-<kbd>desktop</kbd>  :rocket:     
+<kbd>desktop :rocket: </kbd>      
 
 ![](/images/finaldraft.png) 
 
-<kbd>desktop</kbd>  :rocket:     
+<kbd>desktop :rocket: </kbd>      
 
 ![](/images/listingPg.png) 
 
